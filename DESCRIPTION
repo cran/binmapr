@@ -1,0 +1,28 @@
+Package: binmapr
+Type: Package
+Title: Call Marker from Snp Data using Binmap
+Description: The raw NGS (Next Generation Sequencing) variants called 
+    from GBS (Genotyping by Sequencing) / WES (Whole Exon Sequencing)/
+    WGS (Whole Genome Sequencing) may include many error sites. The 
+    'binmapr' could fix the potential error sites and generate highly
+    confident markers for downstream analysis, such as QTL (quantitative
+    trait locus) mapping, genetic map construction. 
+    Davey, J.W. (2011) <doi:10.1038/nrg3012>.
+Version: 0.1.3
+Authors@R: c(person(given = "Zhougeng", family = "Xu", email = "xuzhougeng@163.com", role  = c("aut", "cre")),
+            person(given = "Guangwei", family = "Li", role = "aut"))
+Maintainer: Zhougeng Xu <xuzhougeng@163.com>
+License: Artistic-2.0
+Encoding: UTF-8
+LazyData: true
+RoxygenNote: 6.1.1
+NeedsCompilation: no
+URL: https://github.com/xuzhougeng/binmapr
+BugReports: https://github.com/xuzhougeng/binmapr/issues
+Depends: R (>= 3.5.0)
+Imports: vcfR
+Packaged: 2019-10-16 13:33:32 UTC; DELL
+Author: Zhougeng Xu [aut, cre],
+  Guangwei Li [aut]
+Repository: CRAN
+Date/Publication: 2019-10-20 09:50:02 UTC
